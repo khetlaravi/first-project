@@ -1,0 +1,641 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-LightItalic.woff') format('woff'),
+         url('../fonts/Montserrat-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff'),
+     url('../fonts/Montserrat-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat-Light.woff') format('woff'),
+      url('../fonts/Montserrat-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.ttf') format('ttf'),
+     url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ThinItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/Montserrat-Thin.woff') format('woff'),
+     url('../fonts/Montserrat-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+    url('../fonts/Montserrat-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-MediumItalic.woff') format('woff'),
+    url('../fonts/Montserrat-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BlackItalic.woff') format('woff'),
+    url('../fonts/Montserrat-BlackItalic.ttf') format('ttf');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff'),
+     url('../fonts/Montserrat-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBoldItalic.woff') format('woff'),
+    url('../fonts/Montserrat-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+    url('../fonts/Montserrat-ExtraBold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BoldItalic.woff') format('woff'),
+     url('../fonts/Montserrat-BoldItalic.ttf') format('ttf');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+     url('../fonts/Montserrat-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLight.woff') format('woff'),
+    url('../fonts/Montserrat-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('../fonts/Montserrat-Italic.woff') format('woff'),
+     url('../fonts/Montserrat-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff'),
+     url('../fonts/Montserrat-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #13132F !important;
+    overflow-x: hidden;
+    font-family: 'Montserrat' !important;
+}
+.main-wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+.mini-container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.simple-header{
+    padding: 80px 0;
+    text-align: center;
+}
+.header-content h3{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #fff;
+    margin-top: 60px;
+}
+.phone-desktop-sec{
+    margin-top: 80px;
+    position: relative;
+}
+.simple-content h3{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #fff;
+    margin: 100px auto;
+    text-align: center;
+}
+.citi-block{
+    position: relative;
+    -webkit-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+.citi-content{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.citi-content h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    line-height: 29px;
+}
+.citi-block > img{
+    width: 100%;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.footer-sec{
+    text-align: center; 
+    margin-top: 120px; 
+}
+.footer-sec p{
+    margin: 0px;
+    padding: 20px 0;
+    border-top: 1px solid #30305F;
+    color: #9D9DAF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.citi-block:hover{
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+}
+.citi-block::before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    background-color: #FFB11B;
+    z-index: 0;
+}
+.citi-block:hover::before{
+    height: 100%;
+}
+.citi-block:hover .citi-content img{
+    -webkit-filter:grayscale(100%) invert(100%) contrast(1);
+            filter:grayscale(100%) invert(100%) contrast(1);
+}
+.citi-block:hover .citi-content h3{
+    color: #13132F;
+}
+.left-top-content {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    max-width: 350px;
+    color: #fff;
+    text-align: left;
+}
+.right-bottom-content{
+    position: absolute;
+    right: -20px;
+    bottom: 50px;
+    max-width: 400px;
+    color: #fff;
+    text-align: left;
+}
+.list-content ul{
+    padding-left: 0px;
+    list-style-type: none;
+    position: relative !important;
+}
+.list-content ul li {
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 30px;
+    background-image: url(../images/icon.png);
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 0% 20%;
+}
+.yellow-card {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+}
+.black-card {
+    position: absolute;
+    right: 10%;
+    top: 24%;
+}
+.black-card img{
+    position: relative !important;
+}
+
+/*Register-Modal*/
+.register-modal {
+    max-width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: #13132F;
+    padding:40px 80px 25px 80px;
+    color: #fff;
+    border-radius: 45px 0px 0px 45px;
+    border: 1px solid #30305F;
+    height: 100vh;
+    display: none;
+}
+.register-modal h1{
+    font-size: 36px;
+    font-weight: 800;
+    border-bottom: 1px solid #30305F;
+    display: table;
+       padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.footer-sec.modal-register-footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+.register-form form {
+    margin-top: 40px;
+}
+.register-form .form-control{
+    font-weight: bold;
+    color: #fff;
+}
+.register-form .form-control:focus{
+    color: #fff;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+}
+.register-form input.form-control {
+    background-color: transparent;
+    border: 2px solid #57576A;
+    margin-bottom: 30px;
+    height: 56px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.register-form textarea, .register-form textarea:focus{
+     background-color: transparent;
+    border: 2px solid #57576A;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.submit-btn .btn {
+    background-color: #FFB11B;
+    width: 40%;
+    padding: 20px;
+    color: #13132F;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.submit-btn{
+    text-align: right;
+}
+.modal-register-footer p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.name-input {
+    background-image: url('../images/icon-user.png'); 
+}
+.input-bg{
+  background-size: 27px;
+    background-repeat: no-repeat;
+    background-position: 5% center;  
+}
+.email-input{
+    background-image: url('../images/icon-email.png'); 
+}
+.phone-input{
+    background-image: url('../images/icon-phone.png'); 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::-moz-outer-spin-button,
+input::-moz-inner-spin-button {
+  -moz-appearance: none;
+  margin: 0;
+}
+.close-icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.footer-sec a {
+    color: #9D9DAF;
+    margin-left: 26px;
+    padding-left: 5px;
+    text-decoration: none;
+    position: relative;
+}
+.footer-sec a:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: #9D9DAF;
+    position: absolute;
+    left: -10px;
+}
+.footer-sec a:hover{
+    color: #9D9DAF;
+}
+/*Register*/
+/*MEDIA QUERY FOR RESPONSIVE*/
+@media only screen and (min-width: 768px){
+    .phone-sec-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px){
+    .simple-content h3{
+        max-width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 1600px){
+.register-modal{
+    max-width: 50%;
+}
+}
+
+@media only screen and (max-width: 1024px){
+ 
+  .main-phone img {
+    max-width: 60%;
+}
+.left-top-content, .right-bottom-content{
+    max-width: 340px;
+}
+.cards-img img {
+    max-width: 300px;
+}
+.list-content ul li{
+    font-size: 15px;
+}
+.register-modal{
+    max-width: 60%;
+}
+}
+
+@media only screen and (max-width: 992px){
+    .header-content h3, .simple-content h3{
+        font-size: 26px;
+        line-height: 40px;
+    }
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+.list-content ul li{
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.yellow-card {
+    left: 10%;
+    top: 47%;
+}
+.black-card {
+        right: 14%;
+    top: 21%;
+}
+.cards-img img {
+    max-width: 250px;
+}
+.main-wrapper{
+    padding: 0px 20px;
+}
+.left-top-content, .right-bottom-content{
+    max-width: 290px;
+}
+.main-phone img{
+    max-width: 53%;
+}
+.left-top-content{
+    top: 20px;
+}
+.right-bottom-content{
+    bottom: 20px;
+}
+}
+
+
+@media only screen and (max-width: 768px){
+    .margin-top-50, .third-child{
+        margin-top: -70px;
+    }
+
+    .cards-img img {
+    max-width: 190px;
+}
+.left-top-content, .right-bottom-content {
+    max-width: 270px;
+}
+  .main-phone img {
+    max-width: 100%;
+}
+.yellow-card{
+    top: 65%;
+}
+.list-content ul li{
+    margin-bottom: 20px;
+}
+.list-content ul li{
+    line-height: 24px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+    .footer-sec  span {
+    display: block;
+}
+.footer-sec p a:nth-of-type(1)::after {
+    display: none;
+}
+.footer-sec p a:nth-of-type(1){
+    padding-left: 0px;
+    margin-left: 0px;
+}
+    .phone-desktop-sec{
+    display: none;
+}
+.phone-sec-phone{
+    text-align: center;
+}
+.phone-sec-phone .list-content ul li{
+color: #fff;     
+text-align: left;
+}
+.phone-sec-phone .list-content{
+    margin: 60px 0;
+}
+.simple-header img{
+        max-width: 100%;
+}
+.first-left {
+width: 90%;
+}
+.first-right {
+    width: 90%;
+    margin-left: auto;
+}
+.both-cards {
+    overflow: hidden;
+    position: relative;
+    right: -20px;
+}
+.register-modal{
+    max-width: 100%;
+    padding: 30px 20px 25px 20px;
+}
+.submit-btn .btn{
+    width: 100%;
+}
+.register-modal {
+    min-height: 100%;
+    height: auto;
+    border: 0px;
+}
+.input-bg{
+    background-position: 2% center;
+}
+.register-modal h1{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.close-icon img {
+    max-width: 30px;
+}
+.register-form p{
+    font-size: 15px;
+}
+.main-wrapper{
+    padding: 0px 20px;
+}
+.simple-header{
+    padding: 50px 0;
+}
+.header-content h3{
+    margin-top: 30px;
+}
+}
+
+@media only screen and (max-width: 575px){
+.header-content h3, .simple-content h3{
+    font-size: 21px;
+    line-height: 34px;
+}
+}
